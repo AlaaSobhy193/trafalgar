@@ -1,0 +1,422 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+ h1, h2, h3, h4, h5, h6, p, a{
+font-family: 'Mulish', sans-serif; }
+ 
+ ul{
+     list-style-type: none;
+     overflow: hidden;
+ }
+ a{
+font-family: Mulish;
+font-weight: 400;
+font-size: 14px;
+line-height: 19.3775px;
+text-decoration: none;
+color: #1F1534;
+ }
+ #header{
+     width: 100%;
+ }
+ 
+ #header .row{
+  display: flex; 
+  width: 65%;
+  padding: 20px 162px;
+  justify-content: space-between; 
+ }
+ #header img{
+     width: 100px;
+ }
+ #header  ul li a{
+     opacity: 0.5;
+ }
+ 
+ #header  ul li a:hover{
+      cursor: pointer;
+      color: #1F1534;
+      opacity: 1;
+      font-weight: 700;
+  }
+ 
+#header .menu-area-main{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 140px;
+    padding-right: 0;
+
+}
+    nav.main-menu{
+    margin: auto 0;
+}
+#first-banner .container img{
+padding-top: 50px;
+padding-left: 8px;
+}
+#first-banner .inner-banner{
+    padding: 0px 170px 160px 170px;
+     background-image: url(../trafalgar/img/element1.png);
+    background-repeat: no-repeat;
+    float: left;
+    background-position: left top 20px;
+    margin-left: 8px;  
+    background-size: 80px;
+}
+#first-banner .inner-banner .row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+
+}
+#first-banner .inner-banner img{
+    width: 59%;
+
+}
+#first-banner .content{
+    width: 31%;
+    align-self: center;
+}
+#first-banner .inner-banner .content p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #7D7987;
+    padding-bottom: 25px;
+}
+#first-banner .content a{
+    font-size: 12px;
+    font-weight: 300;
+    background-color: #458FF6;
+   padding: 11px 29px;
+   border-radius: 22px;
+    color: #fff;
+}
+ #second-banner .content, #check-article .content{
+    margin: auto; 
+    text-align: center; 
+    width: 60%;    
+ }
+ #second-banner .content p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #7D7987;
+    padding-bottom: 25px;
+}
+#second-banner .content h2, #check-article .content h2{
+    position: relative;
+    padding-bottom: 20px;
+}
+ #second-banner .content h2::after, #check-article .content h2::after{
+    content: '';
+    background: #000;
+    height: 2px;
+    width: 35px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#check-article .content h2::after{
+    content: '';
+    background: #000;
+    height: 2px;
+    width: 35px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#our-service{
+     background-image: url(../trafalgar/img/Frame6.png), url(../trafalgar/img/element2.png);
+     background-repeat: no-repeat, no-repeat;
+    background-position: bottom 35px left, top 225px right 162px;
+    background-size: 700px, 175px;
+    padding-top: 60px;
+}
+
+ #services{
+     display: flex;
+     justify-content: space-around;
+     padding-left: 200px;
+     padding-right: 200px;
+     padding-bottom: 50px;
+    
+ }
+  #services .serve{
+      width: 220px;
+      height: 210px;
+      background-color: #fff;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.08);
+        border-radius: 20px;
+        padding: 20px;
+
+  }
+ #services img{
+     height: 30%;
+ }
+ 
+.serve p, .article p{
+    font-size: 12px;
+    font-weight: 300;
+    color: #7D7987;
+    width: 200px;
+}
+#our-service a{
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid #458FF6;  
+    border-radius: 22px;
+    padding: 11px 29px;
+    color:#458FF6; 
+    justify-self: center; 
+    margin-left: 45%;
+}
+#third-banner .container img, #fourth-banner .container img{
+padding-top: 50px;
+padding-left: 8px;
+}
+#third-banner .inner-banner{
+    padding: 0px 170px 160px 170px;
+     background-image: url(../trafalgar/img/element.png);
+    background-repeat: no-repeat;
+    background-position: top 25px right 3px;
+    margin-right: 8px;  
+}
+#third-banner .inner-banner .row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+
+}
+#third-banner .inner-banner img, #fourth-banner .inner-banner img{
+    width:50%;
+
+}
+#third-banner .content, #fourth-banner .content{
+    width: 31%;
+    align-self: center;
+}
+#third-banner .inner-banner .content p, #fourth-banner .inner-banner .content p{
+    font-size: 13px;
+    font-weight: 300;
+    color: #7D7987;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+#third-banner a, #fourth-banner a{
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid #458FF6;  
+    border-radius: 22px;
+    padding: 11px 29px;
+    color:#458FF6; 
+    justify-self: center; 
+}
+#third-banner .inner-banner h1::after{
+      content: '';
+    background: #000;
+    height: 2px;
+    width: 45px;
+    position: absolute;
+    right: 33%;
+    margin-top: 55px;
+
+}
+  #fourth-banner .inner-banner h1::after{
+    content: '';
+    background: #000;
+    height: 2px;
+    width: 45px;
+    position: absolute;
+    left: 12.5%;
+    margin-top: 55px;
+}
+#fourth-banner .inner-banner .row{
+    display: flex;
+    justify-content: space-between;
+
+}
+#fourth-banner{
+        padding: 0px 170px 160px 170px;
+
+}
+#main-area .articles{
+     display: flex;
+     justify-content: space-evenly;
+     padding-left: 200px;
+     padding-right: 200px;
+     padding-bottom: 50px;
+     padding-top: 50px;
+    
+ }
+  #main-area .article{
+      width: 230px;
+      height: 350px;
+      background-color: #fff;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.08);
+        border-radius: 20px;
+  }
+  #main-area .article h5 , #main-area .article p{
+    padding-left: 20px;
+    padding-right: 40px;
+  }
+  #check-article{
+      padding-top: 70px;
+    background-image:  url(../trafalgar/img/element2.png), url(../trafalgar/img/element4.png), url(../trafalgar/img/element2.png);
+     background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position:  top 175px left 205px, top 30px right 0, bottom -25px right 150px;
+    background-size: 100px,  440px, 80px;
+height: 700px;
+  }
+ .article img{
+     height: 50%;
+     width: 230px;
+     object-fit: cover;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+ }
+ 
+
+#main-area a{
+    font-size: 12px;
+    font-weight: 600;  
+    color:#458FF6; 
+    padding-left: 20px;
+}
+ #view-all a{
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid #458FF6;  
+    border-radius: 22px;
+    padding: 11px 29px;
+    color:#458FF6; 
+    justify-self: center; 
+        margin-left: 45%;
+
+}
+#customer-opinion{
+    height: 400px;
+    background-image: url(../trafalgar/img/element.png);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: bottom 145px left 140px;
+}
+#customer-opinion .opinion{
+    width: 1000px;
+    height: 320px;
+    background-image: url(../trafalgar/img/element.png),linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%) ;
+    margin: auto;
+    border-radius: 24px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 42px, auto;
+    background-position: top 12px right 10px, top;
+}
+#customer-opinion .content{
+text-align: center;
+color: #fff;
+padding-top: 20px;
+}
+#customer-opinion .content::after{
+    content: '';
+    background: #fff;
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    left: 49%;
+}
+
+#customer-opinion .user-image img{
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+
+}
+#customer-opinion .user-name p, .user-opinion p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;  
+    margin-top: 8px;
+
+}
+#customer-opinion .user-name h5{
+    font-weight: 700;
+    color: #fff;  
+    margin-bottom: 0;
+
+}
+#customer-opinion .user{
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+
+}
+#customer-opinion .box-details{
+    display: flex;
+    padding: 60px 100px 0 100px;
+    justify-content: space-around;
+    
+}
+.slider{
+    width: 18%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 30px;
+}
+.slider .dot {
+  height: 5px;
+  width: 5px;
+  background-color: #5B9BF3;
+  opacity: 0.3;
+  border-radius: 50%;
+  display: inline-block;
+}
+.slider .dot-1 {
+  height: 5px;
+  width: 5px;
+  background-color: #5B9BF3;
+  border-radius: 50%;
+  display: inline-block;
+}
+#footer{
+    height: 400px;
+}
+
+#footer .container{
+    height: 400px;
+    background-image: url(../trafalgar/img/element2.png),linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    margin: auto;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 80px, auto;
+    background-position: bottom -10px left -10px, top;
+
+}
+#footer .footer-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 200px 0 200px;
+    margin: auto;
+}
+.menu{
+    padding: 0;
+}
+.T-logo{
+    display: flex;
+    align-items: center;
+}
+
+#footer h5, h4{
+    color: #fff;
+    font-weight: bold;
+
+}
+#footer  p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+
+}
